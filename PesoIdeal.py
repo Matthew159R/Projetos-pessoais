@@ -9,16 +9,124 @@ pesoApoximado2 = 25 * peso / imc
 pesoIdeal = 22 * peso / imc
 #-------------Resposta ao imc da pessoa-----------------
 if imc < 18.00:
-    print(f'Seu imc é {imc}. Imc está para magreza')
+    print(f'{nome}, seu imc é {imc}. Seu imc está para magreza')
     print(f'Seu peso ideal seria {round(pesoIdeal)} ou algo em torno de {round(pesoApoximado)} e {round(pesoApoximado2)}.')
 elif imc < 25.00:
-    print(f'Seu imc é {imc}. Imc ideal, parabéns')
+    print(f'{nome}, seu imc é {imc}. Imc ideal, parabéns.')
+    print(f'Mas sempre da para melhor, {nome}')
 elif imc < 30.00:
-    print(f'Seu imc é {imc}. Você está na pré obesidade')
+    print(f'{nome}, seu imc é {imc}. Você está na pré obesidade')
     print(f'Seu peso ideal seria {round(pesoIdeal)} ou algo em torno de {round(pesoApoximado)} e {round(pesoApoximado2)}.')
 elif imc < 35:
-    print(f'Seu imc é {imc}. Você está na obesidade grau 1.')
+    print(f'{nome}, seu imc é {imc}. Você está na obesidade grau 1.')
     print(f'Seu peso ideal seria {round(pesoIdeal)} ou algo em torno de {round(pesoApoximado)} e {round(pesoApoximado2)}.')
 elif imc > 35:
-    print(f'Seu imc é {imc}. Você está na obesidade grau 2')
+    print(f'{nome}, seu imc é {imc}. Você está na obesidade grau 2')
     print(f'Seu peso ideal seria {round(pesoIdeal)} ou algo em torno de {round(pesoApoximado)} e {round(pesoApoximado2)}.')
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #Feito por Matheus Batista
