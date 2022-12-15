@@ -1,3 +1,4 @@
+#Ainda não está 100% completo
 import random
 import os
 desafio = int(input('Qual desfio de raciocínio deseja fazer? (1)[Raciocínio] / (2)[Memória]'))
