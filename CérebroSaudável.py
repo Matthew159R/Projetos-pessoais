@@ -1,4 +1,4 @@
-#Programadores: Matheus Batista Rocha e Joaovictorz7
+#Programadores: Matheus Batista Rocha e João Victor Alves de Jesus
 import random
 import os
 desafio = int(input('Qual desfio de raciocínio deseja fazer? (1)[Raciocínio] / (2)[Memória]'))
