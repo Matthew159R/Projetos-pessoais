@@ -1,3 +1,4 @@
+#Programadores: Matheus Batista Rocha e Joaovictorz7
 import random
 import os
 desafio = int(input('Qual desfio de raciocínio deseja fazer? (1)[Raciocínio] / (2)[Memória]'))
