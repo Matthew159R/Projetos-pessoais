@@ -1,0 +1,81 @@
+.box {
+    background-color:aqua;
+    width: 500px;
+    height: 500px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    cursor:pointer;
+    position: relative;
+    top: 100px;
+}
+
+.caixas  {
+    border: 5px;
+    border-radius: 40px;
+    width: 100px;
+    position: relative;
+    top: 60px;
+    color: white;
+}
+
+.Vermelho {
+    background-color: red;
+}
+
+.Amarelo {
+    background-color: yellow;
+}
+
+.Laranja {
+    background-color: orange;
+}
+
+.Azul {
+    background-color: blue;
+}
+
+.Rosa {
+    background-color: pink;
+}
+
+.Preto {
+    background-color: black;
+}
+
+.Roxo {
+    background-color: blueviolet;
+}
+
+.Marrom {
+    background-color: brown;
+}
+
+body {
+    background-color: white;
+}
+
+fieldset {
+    background-color: blueviolet;
+    color: white;
+
+}
+
+button {
+    position: relative;
+    top: 4px;
+    background-color: aqua;
+    border-radius: 20px;
+    border: 0px;
+    color: blue;
+    height: 25px;
+}
+
+input {
+    background-color: greenyellow;
+    border: 0px;
+    border-radius: 20px;
+}
+#resultado {
+    position: relative;
+    top: 5px;
+}
