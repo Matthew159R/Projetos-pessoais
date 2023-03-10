@@ -6,7 +6,7 @@ import mysql.connector
 app = Flask(__name__)
 
 # Conexão com o MySQL
-cnx = mysql.connector.connect(host='localhost', database='pj_form', user='root', password='159159')
+cnx = mysql.connector.connect(host='localhost', database='pj_form', user='root', password='****')
 if cnx.is_connected():
     print('Conectado com sucesso!')
 cursor = cnx.cursor()
