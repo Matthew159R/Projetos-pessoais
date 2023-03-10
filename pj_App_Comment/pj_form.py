@@ -1,3 +1,5 @@
+#CÓDIGO QUE TALVEZ UTILIZAREI PARA SALVAR OS DADOS DO FORMULÁRIO
+
 from flask import Flask, request
 import mysql.connector
 
@@ -16,7 +18,7 @@ def submit():
     nome = request.form['nome']
     email = request.form['email']
 
-    # Insira os dados no banco de dados MySQL
+    # Inseriros dados no banco de dados MySQL
     add_user = ("INSERT INTO usuarios "
                 "(nome, email) "
                 "VALUES (%s, %s)")
