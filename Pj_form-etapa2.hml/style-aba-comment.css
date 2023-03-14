@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.avat1 {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.avat2 {
+    position: relative;
+    bottom: 400px;
+    left: 100px;
+
+}
+
+.avatar {
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+.popup-content {
+    box-sizing: border-box;
+    margin-top: 150px;
+    margin-right: 35px;
+    background: linear-gradient(aqua, aquamarine, rgb(32, 59, 59));
+    max-width: 800px;
+    max-height: 500px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    margin-left: 100px;
+    border-radius: 10px 200px 10px 200px;
+}
+.username {
+    width: 400px;
+    margin-top: 40px;
+    height: 40px;
+    background: linear-gradient(rgb(2, 58, 58), rgb(5, 12, 12), rgb(4, 24, 17));
+    border: 0;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+    color: aqua;
+}
+.username:focus {
+    padding: 0 40px 0 40px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 30px;
+    margin-right: 40px;
+}
+
+.ok {
+    width: 120px;
+    height: 50px;
+    background-color: rgb(20, 158, 101);
+    border-radius: 30%;
+}
+
+.popup {
+    display: inline;
+}
+
+
+textarea {
+    box-sizing: border-box;
+    background-color: rgb(253, 234, 234);
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.content {
+    margin-top: 100px;
+    background-color: rgb(146, 183, 216);
+    height: 250px;
+    max-width: 400px;
+    display: none;
+
+}
+.inicio {
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.final {
+    background-color: rgb(28, 201, 28);
+    border-radius: 10px;
+}
+.v {
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.enviar {
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    margin-top: 20px;
+    border-radius: 10px;
+} 
+
+hr {
+    max-width: 500px;
+}
+
+.comentário {
+    position: absolute;
+    bottom: 320px;
+    left: 20px;
+    font-size: 20px;
+}
+
+
+
+
+.avatar img {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .avatar:hover img {
+    transform: translateY(-20px);
+  }
+
+.avat1{
+    position: relative;
+    top: 4px;
+
+}
+
+h2 {
+    background: linear-gradient(90deg ,rgb(253, 161, 161), rgb(212, 212, 57), violet);
+    position: relative;
+    left: 20px;
+    border-radius: 50%;
+}
+
+h3 {
+    border: solid 1px red;
+    max-width: 400px;
+    border-radius: 500px;
+}

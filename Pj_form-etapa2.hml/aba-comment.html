@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentários</title>
+    <link rel="stylesheet" href="style-aba-comment.css">
+</head>
+<body>
+    <center>
+    <div class="popup">
+        <div class="popup-content">
+            <div class="nome">
+                <h3>Como você quer ser chamado?</h3>
+                <form>
+                    <input  placeholder="Digite aqui"type="text" maxlength="25" minlength="5" required class="username">
+                    <button class="ok">OK</button>
+
+                    
+                </form>
+            </div>
+                <div class="avatar">
+                    <h2>Escolha seu avatar</h2>
+                    <img src="Avatar1.png" alt="Avatar1" class="avat1">
+                    <img src="Avatar2.png" alt="Avatar2" class="avat2">
+                    
+            </div>
+        </div>
+    </div>
+    </center>
+
+    <center>
+    <div class="content">
+        <h1> <span class="inicio">Digite</span> o que <span class="v"> você </span> está <span class="final">pensando</span></h1>
+            <textarea name="comment" id="comment" cols="50" rows="4" placeholder="Comentário" maxlength="300" minlength="10"></textarea>
+            <button class="enviar">Comentar</button>
+    </div>
+    </center>
+    <ul class="comments">
+        <h4 class="nome"></h4>
+        <img src="" class="avatarUsuario">
+    </ul>
+
+
+    <script src="scrips-aba-comment.js"></script>
+</body>
+</html>
