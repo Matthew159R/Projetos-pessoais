@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="icon" href="image_title_App_Comment.png">
+    <link rel="stylesheet" href="pj_form.css">
+</head>
+<center>
+<div class="head">
+    <img src="app_comment_logo.png" alt="App_comment_logo" width="230px">
+    <p class="paragraph_login">Increva-se no App Comment e comece a comentar</p>
+</div>
+</center>
+
+<body>
+    <center>
+    <div class="Form">
+        <div class="popup-wrapper">
+            <div class="popup">
+                <div class="popup-close">x</div>
+                <div class="popup-content">
+                    <h3>Todos os dados precisam ser preenchidos</h3>
+                    <button class="Fechar">Fechar</button>
+                </div>
+            </div>
+           </div>
+        <form>
+            <b>Digite seu email.</b><br>
+            <input type="email" name="email" id="email" placeholder="Email">
+            <b>Digite o seu nome.</b><br>
+            <input type="text" name="name" id="name" placeholder="Nome">
+            <b>Crie sua senha.</b><br>
+            <input type="password" name="senha" id="senha" placeholder="Senha">
+            <div class="bar_force_password"></div>
+            <!--Aqui vai o script para checar se a senha é fraca, média ou forte-->
+            <button type="submit" class="continue">Continuar</button>
+        </form>
+    
+    </div>
+    <p class="senha_forte"></p>
+    <p class="senha_media"></p>
+    <p class="senha_fraca"></p>
+</center>
+<script src="pj_form.js"></script>
+</body>
+</html>

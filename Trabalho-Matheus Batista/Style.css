@@ -1,0 +1,94 @@
+.popup {
+    background-color: rgb(236, 224, 224);
+    width: 300px;
+    height: 320px;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+}
+
+.popupinline {
+    background-color: white;
+    width: 300px;
+    height: 320px;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.button1:hover {
+    background-color: rgb(143, 248, 213);
+}
+.button1 {
+    background-color: aqua;
+    width: 100px;
+    border: solid 1px black;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.button2 {
+    background-color: red;
+    width: 150px;
+    border: solid 1px black;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: rgb(230, 103, 103);
+}
+
+h2 {
+    padding: 0 0 50px 0;
+}
+body {
+    background-color: white;
+}
+.fechar {
+    padding: 0 0 60px 300px;
+    cursor: pointer;
+}
+.container2 {
+ display: grid;
+ text-align: center;
+}
+.nome {
+    top: 40px;
+    cursor: pointer;
+    max-width: 60px;
+}
+
+.nome:hover{
+    color: red;
+    background: linear-gradient(90deg, rgb(50, 117, 117), rgb(14, 34, 27));
+    border-radius: 10px;
+    
+}
+
+.programmer {
+    background-color: black;
+    color: red;
+    border-radius: 10px;
+    max-width: 100px;
+    cursor: pointer;
+}
+.programmer:hover {
+    background-color: white;
+    color: black;
+}
